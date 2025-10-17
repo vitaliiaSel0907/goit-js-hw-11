@@ -6,7 +6,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 const form = document.querySelector('.form');
 
 form.addEventListener('submit', async (e) => {
-  e.preventDefault(); // зупиняємо перезавантаження сторінки
+  e.preventDefault(); 
 
   const query = form.elements['search-text'].value.trim();
 
