@@ -32,3 +32,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+.search-container {
+  display: flex;
+  justify-content: center; /* горизонтально по центру */
+  margin: 20px 0;          /* відступ зверху і знизу */
+}
